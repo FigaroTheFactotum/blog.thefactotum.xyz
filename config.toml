@@ -48,7 +48,7 @@ theme = "casper"
   name = "Blog"
   weight = -120
   identifier = "blog"
-  url = "/posts"
+  url = "/post"
 
 [sitemap]
     ChangeFreq = ""
