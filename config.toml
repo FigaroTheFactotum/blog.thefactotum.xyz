@@ -1,0 +1,56 @@
+BaseUrl= "http://blog.factotum.xyz/"
+LanguageCode= "en-GB"
+Title= "The Factotum"
+paginate = 5
+pluralizelisttitles = false
+DisqusShortname = "blog-thefactotum-xyz"
+Copyright = "All rights reserved - 2018"
+canonifyurls = true
+
+theme = "casper"
+
+[params]
+  description = "75%-stack developer."
+  # metadescription = ""
+  cover = "images/cover.jpg"
+  author = "Figaro"
+  authorlocation = "London, UK"
+  authorwebsite = "http://thefactotum.xyz"
+  authorbio= "A 75%-stack developer trying to create something useful."
+  # logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-127137191-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/thefactotum"
+  githubName = "FigaroTheFactotum"
+  twitterName = "FigaroFactotum"
+  # facebookName = ""
+  # codepenName = ""
+  # linkedinName = ""
+  # stackoverflowId = ""
+  # keybaseName = ""
+  # flickrName = ""
+  # instagramName = ""
+  email = "figaro@thefactotum.xyz"
+  # pinterestName = ""
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = "FigaroFactotum"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/posts"
+
+[sitemap]
+    ChangeFreq = ""
+    Filename = "sitemap.xml"
+    Priority = "-1"
