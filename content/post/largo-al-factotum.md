@@ -2,7 +2,6 @@
 title: "Largo Al Factotum"
 date: 2018-10-07T14:26:58+01:00
 draft: false
-image: /images/json-value.gif
 ---
 
 My (nick)name is Figaro and I'm a Software Engineer and I _love_ being one.
