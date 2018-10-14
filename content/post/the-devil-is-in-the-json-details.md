@@ -154,7 +154,7 @@ interoperability.
 > A number is very much like a C or Java number, except that the octal and
 > hexadecimal formats are not used.
 
-![alt text](http://json.org/number.gif)
+![JSON Number Syntax](http://json.org/number.gif)
 
 If precision is a must in your application, you should use an implementation
 that supports fixed-point decimals or decode numbers as strings to avoid
