@@ -6,6 +6,7 @@ pluralizelisttitles = false
 DisqusShortname = "blog-thefactotum-xyz"
 Copyright = "All rights reserved - 2018"
 canonifyurls = true
+enableEmoji = true
 
 theme = "casper"
 
