@@ -484,7 +484,7 @@ for the running one before starting.
 **Correct**. I know it sounds obvious, but sometimes developers seem to forget
 that databases are running in another server and they should be treated like any other external service. Asynchronous programming will help applications that are "DB-bound".
 
-##### Number Of Running Coroutine Are Limited by Memory
+##### Number Of Running Coroutines Is Limited by Memory
 
 **Yes and No**. Memory can be a hard limit because you can't have more
 coroutines than your memory can fit, but don't forget that they still
@@ -511,7 +511,7 @@ to understand what's doing, but this is a challenge you'd face even writing a
 multithreading application.
 
 
-## Conclusions
+## Conclusion
 
 If you're new to asynchronous programming, you should invest some time
 trying to understand how it works and how it can be suitable for your use case,

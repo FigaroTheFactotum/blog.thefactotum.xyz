@@ -352,7 +352,7 @@ in my `Cargo.toml` both tests passed.
 | Number precision              | {"pi":3.141592653589793...} | OK         | OK         | OK         |
 | Big integer                   | {"big":3141592653589793...} | OK         | OK         | OK         |
 
-## Conclusions
+## Conclusion
 
 These cases might be often labelled as _edge cases_, but soon or later
 they'll bite you back. I-JSON, defined in
